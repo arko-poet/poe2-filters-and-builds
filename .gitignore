@@ -1,0 +1,22 @@
+# Ignore everything by default.
+*
+
+# Keep this ignore file.
+!.gitignore
+
+# Allow Git to look inside folders for files we do want.
+!*/
+
+# Path of Exile filter files.
+!*.filter
+
+# Sound files.
+!*.aac
+!*.aif
+!*.aiff
+!*.flac
+!*.m4a
+!*.mp3
+!*.ogg
+!*.opus
+!*.wav

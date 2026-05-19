@@ -1,0 +1,1091 @@
+#===============================================================================================================
+# [0000] Waystones
+# [0001] Gold
+# [0002] Special
+# [0003] Campaign Currency
+# [0004] Gems
+# [0005] Socketables
+# [0006] Flask Progression
+# [0007] Specific Gear
+# [0008] General Gear
+#===============================================================================================================
+
+#===============================================================================================================
+# [0000] Waystones
+#===============================================================================================================
+
+Show
+    Class == "Waystones"
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 255 92 138 168
+    SetBorderColor 255 255 255 255
+    SetFontSize 40
+    PlayEffect Pink
+    MinimapIcon 2 Pink Square
+    PlayAlertSound 14 300
+
+#===============================================================================================================
+# End of Waystones
+#===============================================================================================================
+
+#===============================================================================================================
+# [0001] Gold
+#===============================================================================================================
+
+Show # big gold stacks
+    StackSize >= 500
+    BaseType == "Gold"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 231 198 151 168
+    PlayEffect Yellow
+    MinimapIcon 2 Yellow Cross
+
+Show # medium gold stacks
+    StackSize >= 250
+    BaseType == "Gold"
+    SetTextColor 231 198 151 255
+    SetBorderColor 231 198 151 255
+    PlayEffect Yellow Temp
+    MinimapIcon 2 Yellow Cross
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 40
+
+Show # small gold stacks
+    StackSize >= 100
+    BaseType == "Gold"
+    SetTextColor 231 198 151 255
+    SetBorderColor 231 198 151 255
+    SetBackgroundColor 0 0 0 168
+
+Show # remaining gold stacks
+    BaseType == "Gold"
+    SetTextColor 231 198 151 255
+    SetBackgroundColor 0 0 0 0
+    SetFontSize 18
+
+#===============================================================================================================
+# End of Gold
+#===============================================================================================================
+
+#===============================================================================================================
+# [0002] Special
+#===============================================================================================================
+
+Show
+    Class "Quest Items"
+    SetFontSize 40
+    SetTextColor 128 255 128 255
+    PlayEffect Green
+    MinimapIcon 2 Green Diamond
+    SetBorderColor 128 255 128 255
+    SetBackgroundColor 0 0 0 168
+    PlayAlertSound 12 300
+
+Show
+    BaseType == "Bronze Key" "Gold Key" "Silver Key"
+    SetFontSize 40
+    SetTextColor 128 255 128 255
+    PlayEffect Green
+    MinimapIcon 2 Green Diamond
+    SetBorderColor 128 255 128 255
+    SetBackgroundColor 0 0 0 168
+    PlayAlertSound 12 300
+
+#===============================================================================================================
+# End of Special
+#===============================================================================================================
+
+#===============================================================================================================
+# [0003] Trials of Ascendancy
+#===============================================================================================================
+
+Show
+    BaseType == "Djinn Barya" "Inscribed Ultimatum"
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 255 92 138 168
+    SetBorderColor 255 255 255 255
+    SetFontSize 40
+    PlayEffect Pink
+    MinimapIcon 2 Pink Square
+    PlayAlertSound 14 300
+
+Show
+    BaseType == "Amphora Relic" "Coffer Relic" "Incense Relic" "Seal Relic" "Tapestry Relic" "Urn Relic" "Vase Relic" "Djinn Barya" "Inscribed Ultimatum"
+    SetFontSize 40
+    SetTextColor 0 255 255 255
+    SetBorderColor 0 255 255 255
+    SetBackgroundColor 0 0 0 168
+    PlayAlertSound 12 300
+    PlayEffect Cyan
+    MinimapIcon 2 Cyan Diamond
+
+#===============================================================================================================
+# End of Trials of Ascendancy
+#===============================================================================================================
+
+#===============================================================================================================
+# [0003] Campaign Currency
+#===============================================================================================================
+
+Show
+    BaseType == "Albino Rhoa Feather" "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb"
+    SetFontSize 45
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 255 36 0 168
+    PlayEffect Red
+    MinimapIcon 0 Red Circle
+    PlayAlertSound 6 300
+
+#===============================================================================================
+
+Show
+    BaseType == "Greater Jeweller's Orb" "Orb of Annulment" "Orb of Chance"
+    SetFontSize 38
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 255 112 52 168
+    PlayEffect Orange
+    MinimapIcon 2 Orange Circle
+    PlayAlertSound 10 300
+
+#===============================================================================================
+
+Show
+    BaseType == "Orb of Alchemy"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "alchemy.ogg" 300
+
+Show
+    BaseType == "Lesser Jeweller's Orb"
+    SetFontSize 40
+    SetTextColor 255 255 255 168
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "jeweller.ogg" 300
+
+Show
+    BaseType == "Regal Orb"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "regal.ogg" 300
+
+Show
+    BaseType == "Glassblower's Bauble"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "bauble.ogg" 300
+
+Show
+    BaseType == "Gemcutter's Prism"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "gcp.ogg" 300
+
+Show
+    BaseType == "Exalted Orb"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "exalt.ogg" 300
+
+Show
+    BaseType == "Arcanist's Etcher"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    
+Show
+    BaseType == "Vaal Orb"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "vaal.ogg" 300
+
+Show
+    BaseType == "Chaos Orb"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "chaos.ogg" 300
+
+Show
+    BaseType == "Artificer's Orb"
+    SetFontSize 40
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 163 53 238 168
+    MinimapIcon 2 Purple Circle
+    PlayEffect Purple Temp
+    CustomAlertSound "artificer.ogg" 300
+
+#===============================================================================================
+
+Show
+    BaseType == "Blacksmith's Whetstone"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 113 188 120 168
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+    CustomAlertSound "whetstone.ogg" 300
+
+Show
+    BaseType == "Armourer's Scrap"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 113 188 120 168
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+    CustomAlertSound "scrap.ogg" 300
+
+Show
+    BaseType == "Orb of Augmentation"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 113 188 120 168
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+    CustomAlertSound "augment.ogg" 300
+
+Show
+    BaseType == "Orb of Transmutation"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 113 188 120 168
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+    CustomAlertSound "transmute.ogg" 300
+
+Show
+    BaseType == "Chance Shard"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255   
+    SetBackgroundColor 113 188 120 168
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+
+#===============================================================================================
+
+Show
+    BaseType == "Artificer's Shard"
+    SetFontSize 32
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 113 188 120 168
+    CustomAlertSound "shard.ogg" 300
+
+Show
+    BaseType == "Transmutation Shard"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 169 169 169 168
+
+Show
+    BaseType == "Regal Shard"
+    SetFontSize 32
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 169 169 169 168
+    CustomAlertSound "shard.ogg" 300
+
+Show # late scrolls
+    BaseType == "Scroll of Wisdom"
+    AreaLevel >= 16
+    SetFontSize 20
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 169 169 169 168
+
+Show # early scrolls
+    BaseType == "Scroll of Wisdom"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 169 169 169 168
+    MinimapIcon 2 White Circle
+    CustomAlertSound "wisdom.ogg" 300
+
+Show # remaining currency
+    Class == "Stackable Currency"
+    SetFontSize 40
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 113 188 120 168
+    MinimapIcon 2 Green Circle
+    PlayEffect Green Temp
+    PlayAlertSound 11 300
+
+#===============================================================================================================
+# End of Campaign Currency
+#===============================================================================================================
+
+#===============================================================================================================
+# [0004] Gems
+#===============================================================================================================
+
+Show
+    BaseType == "Uncut Support Gem"
+    SetFontSize 40
+    SetTextColor 51 255 204 255
+    SetBorderColor 51 255 204 255
+    PlayEffect Cyan Temp
+    MinimapIcon 1 Cyan Triangle
+    SetBackgroundColor 0 0 0 168
+    CustomAlertSound "support.ogg" 300
+
+Show
+    BaseType == "Uncut Skill Gem"
+    SetFontSize 40
+    SetTextColor 51 255 204 255
+    SetBorderColor 51 255 204 255
+    PlayEffect Cyan
+    MinimapIcon 1 Cyan Triangle
+    SetBackgroundColor 0 0 0 168
+    CustomAlertSound "skill.ogg" 300
+
+Show
+    BaseType == "Uncut Spirit Gem"
+    SetFontSize 40
+    SetTextColor 51 255 204 255
+    SetBorderColor 51 255 204 255
+    PlayEffect Cyan
+    MinimapIcon 1 Cyan Triangle
+    SetBackgroundColor 0 0 0 168
+    CustomAlertSound "spirit.ogg" 300
+
+Show
+    Class == "Skill Gems" "Support Gems"
+    SetFontSize 40
+    SetTextColor 51 255 204 255
+    SetBorderColor 51 255 204 255
+    PlayEffect Cyan Temp
+    MinimapIcon 1 Cyan Triangle
+    PlayAlertSound 11 300
+    SetBackgroundColor 0 0 0 168
+
+#===============================================================================================================
+# End of Gems
+#===============================================================================================================
+
+#===============================================================================================================
+# [0005] Socketables
+#===============================================================================================================
+
+Show # Best Socketables
+    BaseType == "Lesser Iron Rune" "Iron Rune" "Greater Iron Rune"
+    SetFontSize 40
+	SetTextColor 128 0 128 255
+	SetBorderColor 128 0 128 255
+	SetBackgroundColor 255 255 255 168
+    MinimapIcon 0 Purple Hexagon
+    PlayEffect Purple
+	CustomAlertSound "rune.ogg" 300
+
+Show
+    Class == "Socketable"
+    SetFontSize 38
+	SetTextColor 153 102 204 255
+	SetBorderColor 153 102 204 255
+	SetBackgroundColor 0 0 0 168
+    PlayAlertSound 11 300
+
+#===============================================================================================================
+# End of Socketables
+#===============================================================================================================
+
+#===============================================================================================================
+# [0006] Flask Progression
+#===============================================================================================================
+
+Show
+	Rarity Magic
+	Class == "Charms"
+	SetFontSize 38
+	SetTextColor 51 153 255 255
+	SetBackgroundColor 0 0 0 168
+    CustomAlertSound "charm.ogg" 300
+
+Show
+	Rarity Normal
+	Class == "Charms"
+	SetFontSize 38
+	SetTextColor 255 255 255 255
+	SetBackgroundColor 0 0 0 168
+    CustomAlertSound "charm.ogg" 300
+
+#===============================================================================================================
+# Magic Life Flasks
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Greater"
+	AreaLevel <= 15
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Grand"
+	AreaLevel <= 22
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Giant"
+    AreaLevel <= 29
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Colossal"
+	AreaLevel <= 39
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Gargantuan"
+	AreaLevel <= 49
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Transcendent"
+	AreaLevel <= 59
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Life Flasks"
+	BaseType "Ultimate"
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+#===============================================================================================================
+# Magic Mana Flasks
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Greater"
+	AreaLevel <= 15
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Grand"
+	AreaLevel <= 22
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Giant"
+    AreaLevel <= 29
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Colossal"
+	AreaLevel <= 39
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Gargantuan"
+	AreaLevel <= 49
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Transcendent"
+	AreaLevel <= 59
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+Show
+    Rarity Magic
+	Class == "Mana Flasks"
+	BaseType "Ultimate"
+	SetFontSize 38
+    SetBorderColor 51 153 255 255
+    SetTextColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 Blue Star
+    PlayEffect Blue Temp
+
+#===============================================================================================================
+# Normal Life Flasks
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Greater"
+	AreaLevel <= 15
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Grand"
+	AreaLevel <= 22
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Giant"
+    AreaLevel <= 29
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Colossal"
+	AreaLevel <= 39
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Gargantuan"
+	AreaLevel <= 49
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Transcendent"
+	AreaLevel <= 59
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Life Flasks"
+	BaseType "Ultimate"
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "lifeFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+#===============================================================================================================
+# Normal Mana Flasks
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Greater"
+	AreaLevel <= 15
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Grand"
+	AreaLevel <= 22
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Giant"
+    AreaLevel <= 29
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Colossal"
+	AreaLevel <= 39
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Gargantuan"
+	AreaLevel <= 49
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Transcendent"
+	AreaLevel <= 59
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+Show
+    Rarity Normal
+	Class == "Mana Flasks"
+	BaseType "Ultimate"
+	SetFontSize 38
+    SetBorderColor 255 255 255 255
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+	CustomAlertSound "manaFlask.ogg" 300
+    MinimapIcon 1 White Star
+    PlayEffect White Temp
+
+#===============================================================================================================
+
+Show
+    Class == "Mana Flasks" "Life Flasks"
+    Rarity Magic
+    AreaLevel <= 5
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+    SetTextColor 51 153 255 255
+
+Show
+    Class == "Mana Flasks" "Life Flasks"
+    Rarity Normal
+    AreaLevel <= 4
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+    SetTextColor 255 255 255 168
+
+Hide
+    Class == "Mana Flasks" "Life Flasks"
+
+#===============================================================================================================
+# End of Flask Progression
+#===============================================================================================================
+
+#===============================================================================================================
+# [0006] Specific Gear
+#===============================================================================================================
+# Highlight Weapons by Type
+
+Show
+    Class == "Two Hand Maces" "One Hand Maces"
+    Rarity Rare
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 38
+    SetTextColor 255 255 0 255
+    SetBorderColor 255 255 0 255
+
+Show
+    Class == "Two Hand Maces" "One Hand Maces"
+    Rarity Magic
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 38
+    SetTextColor 51 153 255 255
+    SetBorderColor 51 153 255 255
+
+Show
+    Class == "Two Hand Maces" "One Hand Maces"
+    Rarity Normal
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 38
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+
+#===============================================================================================================
+# Highlight Armour by Defence Type
+
+Show
+    Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
+    Rarity Rare
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 42
+    SetTextColor 255 255 0 255
+    SetBorderColor 255 255 0 255
+    BaseArmour > 0
+    BaseEvasion == 0
+    BaseEnergyShield == 0
+
+Show
+    Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
+    Rarity Magic
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 38
+    SetTextColor 51 153 255 255
+    SetBorderColor 51 153 255 255
+    BaseArmour > 0
+    BaseEvasion == 0
+    BaseEnergyShield == 0
+
+Show
+    SetBackgroundColor 0 0 0 168
+    Rarity Normal
+    SetFontSize 38
+    Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    BaseArmour > 0
+    BaseEvasion == 0
+    BaseEnergyShield == 0
+
+#===============================================================================================================
+# Sockets and Quality
+
+Show # large sockets
+	Sockets > 1
+	Rarity Normal Magic
+	Class == "Body Armours" "Bows" "Crossbows" "Quarterstaves" "Two Hand Maces"
+    AreaLevel >= 16
+	SetFontSize 40
+	SetTextColor 102 153 153 255
+	SetBorderColor 102 153 153 255
+	SetBackgroundColor 80 80 80 168
+    CustomAlertSound "socket.ogg" 300
+
+Show # small sockets
+	Sockets > 0
+	Rarity Normal Magic
+	Class == "Boots" "Bucklers" "Gloves" "Helmets" "Spears" "Wands" "Staves"
+    AreaLevel >= 16
+	SetFontSize 40
+	SetTextColor 102 153 153 255
+	SetBorderColor 102 153 153 255
+	SetBackgroundColor 80 80 80 168
+    CustomAlertSound "socket.ogg" 300
+
+Show # weapon and flask quality
+	Quality > 0
+	Rarity Normal Magic
+	Class == "Bows" "Crossbows" "One Hand Maces" "Quarterstaves" "Quivers" "Spears" "Two Hand Maces" "Life Flasks" "Mana Flasks" "Sceptres" "Wands" "Staves"
+    AreaLevel >= 16
+	SetFontSize 40
+	SetTextColor 102 153 153 255
+	SetBorderColor 102 153 153 168
+	SetBackgroundColor 80 80 80 168
+    CustomAlertSound "quality.ogg" 300
+
+#===============================================================================================================
+# Hide Gear
+
+Hide # Magic Armour
+    Rarity Magic
+    AreaLevel >= 16
+    Class == "Body Armours" "Boots" "Helmets" "Gloves"
+    BaseArmour == 0
+
+Hide # Normal Armour
+    Rarity Normal
+    AreaLevel >= 2
+    Class == "Body Armours" "Boots" "Helmets" "Gloves"
+    BaseArmour == 0
+
+Hide # Magic Weapons
+    Class == "Wands" "Staves" "Foci" "One Hand Maces" "Quarterstaves" "Two Hand Maces" "Spears" "Bucklers" "Crossbows" "Sceptres" "Bows"
+    AreaLevel >= 6
+    Rarity Magic
+
+Hide # Normal Weapons
+    Class == "Wands" "Staves" "Foci" "One Hand Maces" "Quarterstaves" "Two Hand Maces" "Spears" "Bucklers" "Crossbows" "Sceptres" "Bows"
+    AreaLevel >= 2
+    Rarity Normal
+
+#===============================================================================================================
+# End of Specific Gear
+#===============================================================================================================
+
+#===============================================================================================================
+# [0008] General Gear
+#===============================================================================================================
+
+Show
+    Rarity Unique
+    SetFontSize 40
+	SetTextColor 255 117 24 255
+	SetBorderColor 255 117 24 255
+	SetBackgroundColor 0 0 0 168
+    PlayAlertSound 13 300
+    MinimapIcon 0 Brown Star
+    PlayEffect Brown Temp
+
+#===============================================================================================================
+
+Show
+    Class == "One Hand Maces" "Spears" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+    Rarity Rare
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+    SetTextColor 255 255 0 255
+
+Show
+    Class == "One Hand Maces" "Spears" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+    Rarity Magic
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+    SetTextColor 51 153 255 255
+
+Show
+    Rarity Normal
+    Class == "One Hand Maces" "Spears" "Two Hand Maces" "Quarterstaves" "Sceptres" "Staves" "Wands" "Bows" "Quivers" "Crossbows"
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+
+#===============================================================================================================
+
+Show
+    Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields" "Foci" "Bucklers"
+    Rarity Rare
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+    SetTextColor 255 255 0 255
+
+Show
+    Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields" "Foci" "Bucklers"
+    Rarity Magic
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+    SetTextColor 51 153 255 255
+
+Show
+    Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields" "Foci" "Bucklers"
+    Rarity Normal
+    SetTextColor 255 255 255 255
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 32
+
+#===============================================================================================================
+
+Show
+    Class == "Amulets" "Belts" "Rings"
+    Rarity Rare
+    SetBorderColor 255 255 0 255
+    SetTextColor 255 255 0 255
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 38
+
+Show
+    Class == "Amulets" "Belts" "Rings"
+    Rarity Magic
+    SetBorderColor 51 153 255 255
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 38
+    SetTextColor 51 153 255 255
+
+Show
+    
+    Class == "Amulets" "Belts" "Rings"
+    Rarity Normal
+    SetBackgroundColor 0 0 0 168
+    SetBorderColor 255 255 255 255
+    SetFontSize 38
+    SetTextColor 255 255 255 255
+
+#===============================================================================================================
+
+Show
+    Class == "Jewels"
+    Rarity Rare
+    SetBackgroundColor 0 0 0 168
+    SetBorderColor 255 255 0 255
+    SetFontSize 38
+    SetTextColor 255 255 0 255
+
+Show
+    Class == "Jewels"
+    Rarity Magic
+    SetBackgroundColor 0 0 0 168
+    SetBorderColor 51 153 255 255
+    SetFontSize 38
+    SetTextColor 51 153 255 255
+
+#===============================================================================================================
+# End of General Gear
+#===============================================================================================================
