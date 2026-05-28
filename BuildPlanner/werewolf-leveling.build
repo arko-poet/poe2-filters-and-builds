@@ -1,0 +1,381 @@
+{
+  "Build": {
+    "name": "werewolf-leveling",
+    "author": "arko",
+    "ascendancy": "Druid1",
+    "passives": [
+      "placeholder2",
+      "area_attacks5_",
+      "melee2",
+      "area_attacks4",
+      "templar_druid_notable1",
+      "strength6",
+      "strength7",
+      "strength8",
+      "intelligence34",
+      "auras3",
+      "minion_offence1",
+      "minion_offence13",
+      "strength9",
+      "strength10",
+      "strength11",
+      "strength57",
+      "strength58",
+      "attack_speed53",
+      "attack_speed54",
+      "attack_speed55",
+      "strength2",
+      "strength45_",
+      "strength54",
+      "rage22",
+      "rage23",
+      "rage29",
+      "rage25",
+      "melee5",
+      "melee6",
+      "melee34",
+      "attributes31",
+      "strength13",
+      "jewel_slot1977",
+      "intelligence74",
+      "strength44",
+      "intelligence8",
+      "attributes4",
+      "energy_shield_and_armour8",
+      "energy_shield_and_armour6_",
+      "energy_shield_and_armour7",
+      "energy_shield_and_armour11",
+      "strength46",
+      "wolf1",
+      "wolf2_",
+      "wolf5",
+      "wolf11",
+      {
+        "id": "duration14",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration15",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration13",
+        "weapon_set": 2
+      },
+      {
+        "id": "templar_druid_notable2",
+        "weapon_set": 2
+      },
+      {
+        "id": "intelligence29",
+        "weapon_set": 2
+      },
+      {
+        "id": "strength95",
+        "weapon_set": 2
+      },
+      {
+        "id": "attributes2",
+        "weapon_set": 2
+      },
+      {
+        "id": "intelligence27",
+        "weapon_set": 2
+      },
+      {
+        "id": "cast_speed28__",
+        "weapon_set": 2
+      },
+      {
+        "id": "cast_speed27",
+        "weapon_set": 2
+      },
+      {
+        "id": "cast_speed26",
+        "weapon_set": 2
+      },
+      {
+        "id": "cast_speed25",
+        "weapon_set": 2
+      },
+      {
+        "id": "cast_speed34",
+        "weapon_set": 2
+      },
+      {
+        "id": "intelligence37",
+        "weapon_set": 2
+      },
+      {
+        "id": "intelligence38",
+        "weapon_set": 2
+      },
+      {
+        "id": "slowed_enemies6",
+        "weapon_set": 2
+      },
+      {
+        "id": "slowed_enemies8",
+        "weapon_set": 2
+      },
+      {
+        "id": "slowed_enemies10",
+        "weapon_set": 2
+      },
+      {
+        "id": "spells6",
+        "weapon_set": 2
+      },
+      {
+        "id": "spells4",
+        "weapon_set": 2
+      },
+      {
+        "id": "spells31",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration2",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration4",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration8",
+        "weapon_set": 2
+      },
+      {
+        "id": "auras4",
+        "weapon_set": 1
+      },
+      {
+        "id": "auras18",
+        "weapon_set": 1
+      },
+      {
+        "id": "criticals2_",
+        "weapon_set": 1
+      },
+      {
+        "id": "criticals25_",
+        "weapon_set": 1
+      },
+      {
+        "id": "melee7",
+        "weapon_set": 1
+      },
+      {
+        "id": "melee32",
+        "weapon_set": 1
+      },
+      {
+        "id": "oracle_damage_and_minions3",
+        "weapon_set": 1
+      },
+      {
+        "id": "oracle_damage_and_minions2",
+        "weapon_set": 1
+      },
+      {
+        "id": "oracle_damage_and_minions1",
+        "weapon_set": 1
+      },
+      {
+        "id": "oracle_damage_and_minions4",
+        "weapon_set": 1
+      },
+      {
+        "id": "shapeshifting17",
+        "weapon_set": 1
+      },
+      {
+        "id": "shapeshifting4",
+        "weapon_set": 1
+      },
+      {
+        "id": "shapeshifting14",
+        "weapon_set": 1
+      },
+      {
+        "id": "shapeshifting18",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear1",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear5",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear10_",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear7",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear6",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear8",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear4",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear11",
+        "weapon_set": 1
+      },
+      {
+        "id": "wolf6",
+        "weapon_set": 1
+      },
+      {
+        "id": "wolf18",
+        "weapon_set": 1
+      },
+      "elemental8_",
+      "elemental3",
+      "elemental5",
+      "cold31",
+      "intelligence33_",
+      "intelligence40",
+      "energy_shield_and_armour20",
+      "energy_shield_and_armour19",
+      "energy_shield_and_armour18",
+      "energy_shield_and_armour17",
+      "energy_shield_and_armour14",
+      "AscendancyDruid1Small1",
+      "AscendancyDruid1Notable2",
+      "AscendancyDruid1Small7",
+      "AscendancyDruid1Notable7"
+    ],
+    "skills": [
+      {
+        "id": "Shred",
+        "supports": [
+          "Cold Attunement",
+          "Rapid Attacks I",
+          "Concentrated Area",
+          "Close Combat I",
+          "Long Fuse I",
+          "Long Fuse II",
+          "Crescendo II",
+          "Close Combat II"
+        ]
+      },
+      {
+        "id": "Lunar Assault",
+        "supports": [
+          "Ice Bite I",
+          "Deep Freeze",
+          "Elemental Armament I",
+          "Elemental Armament II",
+          "Ice Bite II",
+          "Rapid Attacks II"
+        ]
+      },
+      {
+        "id": "Frost Bomb",
+        "supports": [
+          "Prolonged Duration I",
+          "Rapid Casting I",
+          "Potent Exposure",
+          "Prolonged Duration II",
+          "Rapid Casting II"
+        ]
+      },
+      {
+        "id": "Pounce",
+        "supports": [
+          "Rapid Attacks I",
+          "Cooldown Recovery I",
+          "Rapid Attacks II",
+          "Cooldown Recovery II"
+        ]
+      },
+      {
+        "id": "Herald of Ice",
+        "supports": [
+          "Magnified Area I",
+          "Magnified Area II",
+          "Elemental Armament I",
+          "Elemental Armament II",
+          "Precision I",
+          "Precision II",
+          "Deadly Herald"
+        ]
+      },
+      {
+        "id": "Arctic Howl",
+        "supports": [
+          "Ice Bite I",
+          "Ice Bite II",
+          "Deep Freeze",
+          "Tireless"
+        ]
+      },
+      {
+        "id": "Savage Fury",
+        "supports": [
+          "Prolonged Duration I",
+          "Prolonged Duration II"
+        ]
+      },
+      {
+        "id": "Cross Slash",
+        "supports": [
+          "Rapid Attacks I",
+          "Rapid Attacks II",
+          "Concentrated Area",
+          "Close Combat I",
+          "Close Combat II"
+        ]
+      },
+      {
+        "id": "Voltaic Mark",
+        "supports": [
+          "Prolonged Duration I",
+          "Prolonged Duration II"
+        ]
+      },
+      {
+        "id": "Freezing Mark"
+      },
+      {
+        "id": "Elemental Sundering",
+        "supports": [
+          "Prolonged Duration I",
+          "Rapid Casting I",
+          "Heightened Curse",
+          "Prolonged Duration II",
+          "Rapid Casting II"
+        ],
+        "additional_text": "elemental weakness, not sundering"
+      },
+      {
+        "id": "Lunar Blessing",
+        "supports": [
+          "Prolonged Duration II",
+          "Magnified Area II",
+          "Cooldown Recovery II",
+          "Elemental Armament II"
+        ]
+      },
+      {
+        "id": "Essence Drain"
+      },
+      {
+        "id": "Contagion"
+      }
+    ]
+  }
+}

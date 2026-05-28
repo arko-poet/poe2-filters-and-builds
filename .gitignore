@@ -6,9 +6,11 @@
 
 # Allow Git to look inside folders for files we do want.
 !*/
+!*/BuildPlanner
 
 # Path of Exile filter files.
 !*.filter
+!*.build
 
 # Sound files.
 !*.aac
