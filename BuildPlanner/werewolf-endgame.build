@@ -1,0 +1,713 @@
+{
+  "Build": {
+    "name": "Druid",
+    "description": "^xE05030^x70FF70^x7070FF^xD02090^7^xE05030^xE05030===========A1========================================================================================\n^xD02090^xFFFF77Shred^7^7 - Cold Infusion - Rapid Attacks\n^xD02090^xADAA47Lunar Assault^7^7 - Ice Bite - Deep Freeze/Elemental Arm\n^xD02090^xFFFF77Frost Bomb^7^7 - Prolonged Duration - Rapid Casting\n^xD02090^xADAA47Pounce^7^7 - Rapid Attacks\n^x7070FF^xD02090^xFFFF77Hearald of Ice^7^7^7 - Magnified Eff - Elemental Arm\n^x8888FF^xD02090^xADAA47Arctic Howl^7^7^7 - Ice Bite - Deep Freeze\n^xD02090^xFFFF77Savage Fury^7^7 - Prolonged Duration^7^7^7^xD02090\n^x70FF70^xD02090^xD02090^xD02090^7^xE05030===========A2========================================================================================\n^xFFFF77Shred^7^7^7 - ^x70FF70^7^x70FF70Conc Effect^7 - Rapid Attacks^7^7\n^xD02090^xADAA47Lunar Assault^7^7 -^x70FF70 ^7Ice Bite^7 -^x70FF70 Freeze^7 - ^7Deep Freez^7e^7/^x70FF70Elemental Armanent 2^x70FF70\n^xD02090^xFFFF77Frost Bomb^7^7 - ^x70FF70Pot",
+    "ascendancy": "Druid1",
+    "passives": [
+      {
+        "id": "bear5",
+        "weapon_set": 1
+      },
+      "energy_shield_and_armour2",
+      {
+        "id": "bear10_",
+        "weapon_set": 1
+      },
+      "strength2",
+      "chill_and_freeze25",
+      {
+        "id": "oracle_damage_and_minions4",
+        "weapon_set": 1
+      },
+      "armour31",
+      "criticals71",
+      "criticals73",
+      {
+        "id": "oracle_damage_and_minions2",
+        "weapon_set": 1
+      },
+      {
+        "id": "spells4",
+        "weapon_set": 2
+      },
+      "jewel_slot1977",
+      "energy_shield_and_armour3",
+      {
+        "id": "oracle_damage_and_minions3",
+        "weapon_set": 1
+      },
+      "area_attacks27",
+      {
+        "id": "melee7",
+        "weapon_set": 1
+      },
+      "intelligence34",
+      "elemental33",
+      {
+        "id": "shapeshifting14",
+        "weapon_set": 1
+      },
+      "attributes3",
+      "strength8",
+      "strength54",
+      "strength57",
+      "rage29",
+      "melee34",
+      {
+        "id": "cast_speed28__",
+        "weapon_set": 2
+      },
+      "criticals74",
+      "intelligence72",
+      "maximum_resistances21",
+      "passive_keystone_ancestral_bond",
+      {
+        "id": "slowed_enemies6",
+        "weapon_set": 2
+      },
+      {
+        "id": "intelligence37",
+        "weapon_set": 2
+      },
+      "rage18",
+      "criticals70",
+      "wyvern14",
+      "area_attacks6__",
+      {
+        "id": "shapeshifting18",
+        "weapon_set": 1
+      },
+      "passive_keystone_blood_magic",
+      "area_attacks9",
+      {
+        "id": "criticals2_",
+        "weapon_set": 1
+      },
+      {
+        "id": "melee32",
+        "weapon_set": 1
+      },
+      {
+        "id": "bear11",
+        "weapon_set": 1
+      },
+      "physical68__",
+      "oracle_slow_crits2",
+      "energy_shield_and_armour18",
+      {
+        "id": "spells6",
+        "weapon_set": 2
+      },
+      "templar_druid_notable2",
+      "attributes31",
+      "minion_offence1",
+      "wolf1",
+      "energy_shield_and_armour17",
+      "attributes15",
+      {
+        "id": "strength95",
+        "weapon_set": 2
+      },
+      {
+        "id": "criticals25_",
+        "weapon_set": 1
+      },
+      "area_of_effect1",
+      "oracle_slow_crits1",
+      "criticals68",
+      "energy_shield_and_armour20",
+      "energy_shield_and_armour14",
+      "energy_shield_and_armour19",
+      {
+        "id": "shapeshifting17",
+        "weapon_set": 1
+      },
+      "melee33",
+      "templar598",
+      "attributes4",
+      "attack_speed55",
+      {
+        "id": "bear1",
+        "weapon_set": 1
+      },
+      "strength10",
+      "energy_shield_and_armour6_",
+      {
+        "id": "duration4",
+        "weapon_set": 2
+      },
+      "oracle_slow_crits4__",
+      "intelligence74",
+      {
+        "id": "oracle_damage_and_minions1",
+        "weapon_set": 1
+      },
+      "oracle_rage2",
+      "wolf5",
+      {
+        "id": "duration2",
+        "weapon_set": 2
+      },
+      "attack_speed54",
+      "attack_speed53",
+      {
+        "id": "cast_speed26",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration15",
+        "weapon_set": 2
+      },
+      {
+        "id": "shapeshifting4",
+        "weapon_set": 1
+      },
+      "intelligence33_",
+      {
+        "id": "bear7",
+        "weapon_set": 1
+      },
+      "wyvern5",
+      "area_attacks26",
+      "area_attacks2",
+      {
+        "id": "wolf6",
+        "weapon_set": 1
+      },
+      "strength45_",
+      {
+        "id": "duration8",
+        "weapon_set": 2
+      },
+      {
+        "id": "auras1",
+        "weapon_set": 1
+      },
+      "attributes16",
+      {
+        "id": "bear6",
+        "weapon_set": 1
+      },
+      {
+        "id": "cast_speed34",
+        "weapon_set": 2
+      },
+      {
+        "id": "bear8",
+        "weapon_set": 1
+      },
+      "rage23",
+      {
+        "id": "attributes2",
+        "weapon_set": 2
+      },
+      {
+        "id": "bear4",
+        "weapon_set": 1
+      },
+      {
+        "id": "intelligence38",
+        "weapon_set": 2
+      },
+      "area_attacks1",
+      "melee6",
+      "energy_shield_and_armour7",
+      {
+        "id": "cast_speed27",
+        "weapon_set": 2
+      },
+      "oracle12",
+      "melee5",
+      "energy_shield_and_armour1",
+      {
+        "id": "intelligence29",
+        "weapon_set": 2
+      },
+      "minion_offence13",
+      "criticals72",
+      "strength9",
+      "strength58",
+      "strength7",
+      "oracle_wyvern_addon2",
+      "rage22",
+      {
+        "id": "auras18",
+        "weapon_set": 1
+      },
+      {
+        "id": "cast_speed25",
+        "weapon_set": 2
+      },
+      {
+        "id": "duration14",
+        "weapon_set": 2
+      },
+      "strength6",
+      "oracle_rage1",
+      "strength47",
+      "strength13",
+      "oracle_rage3",
+      {
+        "id": "duration13",
+        "weapon_set": 2
+      },
+      "intelligence71",
+      "criticals69",
+      "strength11",
+      "intelligence8",
+      "strength46",
+      "wolf2_",
+      "rage25",
+      {
+        "id": "intelligence83",
+        "weapon_set": 2
+      },
+      "oracle_slow_crits3",
+      "energy_shield_and_armour8",
+      "area_of_effect4",
+      "energy_shield_and_armour11",
+      "area_attacks12",
+      "placeholder1",
+      {
+        "id": "slowed_enemies10",
+        "weapon_set": 2
+      },
+      {
+        "id": "intelligence27",
+        "weapon_set": 2
+      },
+      {
+        "id": "spells31",
+        "weapon_set": 2
+      },
+      {
+        "id": "slowed_enemies8",
+        "weapon_set": 2
+      },
+      "strength48",
+      "intelligence40",
+      "area_attacks29",
+      {
+        "id": "wolf18",
+        "weapon_set": 1
+      },
+      "area_of_effect23",
+      "strength44",
+      "templar_druid_notable1",
+      "wolf11",
+      "AscendancyDruid1Small1",
+      "AscendancyDruid1Start",
+      "AscendancyDruid1Notable8",
+      "AscendancyDruid1Small8",
+      "AscendancyDruid1Notable1",
+      "AscendancyDruid1Notable7",
+      "AscendancyDruid1Small2",
+      "AscendancyDruid1Small7",
+      "AscendancyDruid1Notable2"
+    ],
+    "skills": [
+      {
+        "id": "Shred",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Crescendo II",
+            "level_interval": 1
+          },
+          {
+            "id": "Rapid Attacks II",
+            "level_interval": 1
+          },
+          {
+            "id": "Close Combat II",
+            "level_interval": 1
+          },
+          {
+            "id": "Long Fuse II",
+            "level_interval": 1
+          },
+          {
+            "id": "Elemental Armament II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Lunar Assault",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Ice Bite II",
+            "level_interval": 1
+          },
+          {
+            "id": "Deep Freeze",
+            "level_interval": 1
+          },
+          {
+            "id": "Freeze",
+            "level_interval": 1
+          },
+          {
+            "id": "Elemental Armament II",
+            "level_interval": 1
+          },
+          {
+            "id": "Rapid Attacks II",
+            "level_interval": 1
+          },
+          {
+            "id": "Magnified Area II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Frost Bomb",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Potent Exposure",
+            "level_interval": 1
+          },
+          {
+            "id": "Rapid Casting II",
+            "level_interval": 1
+          },
+          {
+            "id": "Cold Mastery",
+            "level_interval": 1
+          },
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Prolonged Duration II",
+        "level_interval": 1,
+        "supports": [
+          {
+            "id": "Potent Exposure",
+            "level_interval": 1
+          },
+          {
+            "id": "Rapid Casting II",
+            "level_interval": 1
+          },
+          {
+            "id": "Cold Mastery",
+            "level_interval": 1
+          },
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Pounce",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Rapid Attacks III",
+            "level_interval": 1
+          },
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          },
+          {
+            "id": "Blazing Critical",
+            "level_interval": 1
+          },
+          {
+            "id": "Holy Descent",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Freezing Mark",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Rapid Attacks III",
+            "level_interval": 1
+          },
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          },
+          {
+            "id": "Blazing Critical",
+            "level_interval": 1
+          },
+          {
+            "id": "Holy Descent",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Herald of Ice",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Magnified Area II",
+            "level_interval": 1
+          },
+          {
+            "id": "Elemental Armament II",
+            "level_interval": 1
+          },
+          {
+            "id": "Elemental Focus",
+            "level_interval": 1
+          },
+          {
+            "id": "Execute II",
+            "level_interval": 1
+          },
+          {
+            "id": "Frozen Spite",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Arctic Howl",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Ice Bite II",
+            "level_interval": 1
+          },
+          {
+            "id": "Deep Freeze",
+            "level_interval": 1
+          },
+          {
+            "id": "Tireless",
+            "level_interval": 1
+          },
+          {
+            "id": "Raging Cry",
+            "level_interval": 1
+          },
+          {
+            "id": "Brittle Armour",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Elemental Weakness",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Rapid Casting II",
+            "level_interval": 1
+          },
+          {
+            "id": "Heightened Curse",
+            "level_interval": 1
+          },
+          {
+            "id": "Cold Mastery",
+            "level_interval": 1
+          },
+          {
+            "id": "Efficiency II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Prolonged Duration II",
+        "level_interval": 1,
+        "supports": [
+          {
+            "id": "Rapid Casting II",
+            "level_interval": 1
+          },
+          {
+            "id": "Heightened Curse",
+            "level_interval": 1
+          },
+          {
+            "id": "Cold Mastery",
+            "level_interval": 1
+          },
+          {
+            "id": "Efficiency II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Firebolt",
+        "level_interval": 11
+      },
+      {
+        "id": "Voltaic Mark",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Mark of Siphoning",
+            "level_interval": 1
+          },
+          {
+            "id": "Charged Mark",
+            "level_interval": 1
+          },
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          },
+          {
+            "id": "Mark for Death II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Prolonged Duration II",
+        "level_interval": 1,
+        "supports": [
+          {
+            "id": "Mark of Siphoning",
+            "level_interval": 1
+          },
+          {
+            "id": "Charged Mark",
+            "level_interval": 1
+          },
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          },
+          {
+            "id": "Mark for Death II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Lunar Blessing",
+        "level_interval": 20,
+        "supports": [
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          },
+          {
+            "id": "Magnified Area II",
+            "level_interval": 1
+          },
+          {
+            "id": "Efficiency II",
+            "level_interval": 1
+          },
+          {
+            "id": "Elemental Armament II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Prolonged Duration II",
+        "level_interval": 1,
+        "supports": [
+          {
+            "id": "Cooldown Recovery II",
+            "level_interval": 1
+          },
+          {
+            "id": "Magnified Area II",
+            "level_interval": 1
+          },
+          {
+            "id": "Efficiency II",
+            "level_interval": 1
+          },
+          {
+            "id": "Elemental Armament II",
+            "level_interval": 1
+          }
+        ]
+      },
+      {
+        "id": "Cross Slash",
+        "level_interval": 20
+      },
+      {
+        "id": "Eternal Rage",
+        "level_interval": 20
+      }
+    ],
+    "inventory_slots": [
+      {
+        "inventory_id": "Amulet",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Belt",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "BodyArmour",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Boots",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Charm1",
+        "hint": "Bright Amethyst Charm of the Plentiful"
+      },
+      {
+        "inventory_id": "Charm2",
+        "hint": "Bright Silver Charm of the Plentiful"
+      },
+      {
+        "inventory_id": "Charm3",
+        "hint": "Bright Golden Charm of the Plentiful"
+      },
+      {
+        "inventory_id": "Flask1",
+        "hint": "Seething Ultimate Life Flask of the Plentiful"
+      },
+      {
+        "inventory_id": "Gloves",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Helmet",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Ring1",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Ring2",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Weapon1",
+        "hint": "New Item"
+      },
+      {
+        "inventory_id": "Flask2",
+        "hint": "Abundant Ultimate Mana Flask of the Plentiful"
+      },
+      {
+        "inventory_id": "Weapon1Swap",
+        "hint": "New Item"
+      }
+    ]
+  }
+}

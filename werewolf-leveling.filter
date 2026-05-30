@@ -2081,10 +2081,10 @@ Show
     BaseType == "Lumbering Talisman"
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2120,10 +2120,10 @@ Show
     AreaLevel <= 51
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2159,10 +2159,10 @@ Show
     AreaLevel <= 45
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2198,10 +2198,10 @@ Show
     AreaLevel <= 39
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2237,10 +2237,10 @@ Show
     AreaLevel <= 33
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2276,10 +2276,10 @@ Show
     AreaLevel <= 27
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2315,10 +2315,10 @@ Show
     AreaLevel <= 21
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2354,10 +2354,10 @@ Show
     AreaLevel <= 15
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 Show
@@ -2393,10 +2393,10 @@ Show
     AreaLevel <= 9
     SetTextColor 0 0 0 255
     SetBorderColor 255 0 0 255
-    SetBackgroundColor 51 153 255 168
+    SetBackgroundColor 255 255 255 168
     SetFontSize 40
-    MinimapIcon 2 Blue UpsideDownHouse
-    PlayEffect Blue
+    MinimapIcon 2 White UpsideDownHouse
+    PlayEffect White
     CustomAlertSound "sounds/talisman.ogg" 300
 
 # Show
