@@ -2655,6 +2655,7 @@ Show
 Show
     Class == "Body Armours" "Gloves" "Helmets" "Boots"
     Rarity Rare
+    AreaLevel >= 33
     SetBackgroundColor 0 0 0 168
     SetFontSize 40
     SetTextColor 255 255 0 255
@@ -2666,6 +2667,7 @@ Show
 Show
     Class == "Body Armours" "Gloves" "Helmets" "Boots"
     Rarity Magic
+    AreaLevel >= 33
     SetBackgroundColor 0 0 0 168
     SetFontSize 40
     SetTextColor 51 153 255 255
@@ -2678,12 +2680,50 @@ Show
     SetBackgroundColor 0 0 0 168
     Rarity Normal
     SetFontSize 40
+    AreaLevel >= 33
     Class == "Body Armours" "Gloves" "Helmets" "Boots"
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     BaseArmour == 0
     BaseEvasion > 0
     BaseEnergyShield == 0
+
+Show
+    Class == "Body Armours" "Gloves" "Helmets" "Boots"
+    Rarity Rare
+    AreaLevel < 33
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 40
+    SetTextColor 255 255 0 255
+    SetBorderColor 255 255 0 255
+    BaseArmour > 0
+    BaseEvasion == 0
+    BaseEnergyShield == 0
+
+Show
+    Class == "Body Armours" "Gloves" "Helmets" "Boots"
+    Rarity Magic
+    AreaLevel < 33
+    SetBackgroundColor 0 0 0 168
+    SetFontSize 40
+    SetTextColor 51 153 255 255
+    SetBorderColor 51 153 255 255
+    BaseArmour > 0
+    BaseEvasion == 0
+    BaseEnergyShield == 0
+
+Show
+    SetBackgroundColor 0 0 0 168
+    Rarity Normal
+    SetFontSize 40
+    AreaLevel < 33
+    Class == "Body Armours" "Gloves" "Helmets" "Boots"
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    BaseArmour > 0
+    BaseEvasion == 0
+    BaseEnergyShield == 0
+
 
 Show
     Class == "Body Armours" "Gloves" "Helmets" "Boots"
@@ -2750,19 +2790,33 @@ Show
 #     AreaLevel >= 16
 #     Class == "Body Armours" "Helmets" "Gloves" "Boots"
 #     BaseEnergyShield > 0
-
 Hide # Normal Armour
     Rarity Normal
     AreaLevel >= 6
     Class == "Body Armours" "Helmets" "Gloves" "Boots"
 
 Hide # Magic Weapons
-    Class == "Quarterstaves" "Sceptres" "Bows" "Shields" "Crossbows" "Quivers" "One Hand Maces" "Two Hand Maces" "Talismans" "Staves" "Foci" "Wands"
+    Class == "Talismans"
+    AreaLevel >= 16
+    Rarity Magic
+
+Hide # Normal Weapons
+    Class == "Talismans"
+    AreaLevel >= 16
+    Rarity Normal
+
+Hide # Normal Weapons
+    Class == "Bucklers"
+    AreaLevel >= 16
+    Rarity Normal Magic
+
+Hide # Magic Weapons
+    Class == "Quarterstaves" "Sceptres" "Bows" "Shields" "Crossbows" "Quivers" "One Hand Maces" "Two Hand Maces""Staves" "Foci" "Wands"
     AreaLevel >= 2
     Rarity Magic
 
 Hide # Normal Weapons
-    Class == "Quarterstaves" "Sceptres" "Bows" "Shields" "Crossbows" "Quivers" "One Hand Maces" "Two Hand Maces" "Talismans" "Staves" "Foci" "Wands"
+    Class == "Quarterstaves" "Sceptres" "Bows" "Shields" "Crossbows" "Quivers" "One Hand Maces" "Two Hand Maces""Staves" "Foci" "Wands"
     AreaLevel >= 2
     Rarity Normal
 

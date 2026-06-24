@@ -1,7 +1,7 @@
 {
   "name": "twister-leveling",
   "author": "arko",
-  "description": "<rgb(162, 207, 251)>{<s>{Maxroll planner link: <u>{https://maxroll.gg/poe2/planner/bpe8850y}}}",
+  "description": "aboba",
   "ascendancy": "Huntress2",
   "passives": [
     {
@@ -9,40 +9,35 @@
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #1}}\r\n<s>{- }<i>{<s>{Next node: Projectile Damage}}"
+      ]
     },
     {
       "id": "projectiles22",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #2}}\r\n<s>{- }<i>{<s>{Next node: Projectile Damage}}"
+      ]
     },
     {
       "id": "projectiles8",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #3}}\r\n<s>{- }<i>{<s>{Next node: Projectile Damage}}"
+      ]
     },
     {
       "id": "projectiles14",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #4}}\r\n<s>{- }<i>{<s>{Next node: Honed Instincts}}"
+      ]
     },
     {
       "id": "ranger_huntress_notable2",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #5}}\r\n<s>{- }<i>{<s>{Next node: Projectile Damage}}"
+      ]
     },
     {
       "id": "attack_speed3",
@@ -50,8 +45,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #1 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed7",
@@ -59,72 +53,63 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #2 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "projectiles16",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #6}}\r\n<s>{- }<i>{<s>{Next node: Clean Shot}}"
+      ]
     },
     {
       "id": "projectiles23",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #7}}\r\n<s>{- }<i>{<s>{Next node: Projectile Damage}}"
+      ]
     },
     {
       "id": "projectiles17",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #8}}\r\n<s>{- }<i>{<s>{Next node: Projectile Damage}}"
+      ]
     },
     {
       "id": "ranged6",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #9}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity19",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #10}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity36",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #11}}\r\n<s>{- }<i>{<s>{Next node: Attribute (<rgb(134, 189, 163)>{Dexterity +5})}}"
+      ]
     },
     {
       "id": "dexterity38",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #12}}\r\n<s>{- }<i>{<s>{Next node: Attribute (<rgb(134, 189, 163)>{Dexterity +5})}}\r\n\r\n<b>{<m>{Option:}}\r\n<s>{<rgb(134, 189, 163)>{Dexterity +5} is recommended}"
+      ]
     },
     {
       "id": "dexterity39",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #13}}\r\n<s>{- }<i>{<s>{Next node: Attribute (<rgb(200, 103, 110)>{Strength +5})}}\r\n\r\n<b>{<m>{Option:}}\r\n<s>{<rgb(134, 189, 163)>{Dexterity +5} is recommended}"
+      ]
     },
     {
       "id": "blind5",
@@ -132,8 +117,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #1 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Damage vs Blinded}}"
+      "weapon_set": 1
     },
     {
       "id": "blind7",
@@ -141,8 +125,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #2 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Disorientation}}"
+      "weapon_set": 1
     },
     {
       "id": "blind10",
@@ -150,16 +133,14 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #3 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "dexterity11",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #14}}\r\n<s>{- }<i>{<s>{Next node: Attribute (<rgb(200, 103, 110)>{Strength +5})}}\r\n\r\n<b>{<m>{Option:}}\r\n<s>{<rgb(200, 103, 110)>{Strength +5} is recommended}"
+      ]
     },
     {
       "id": "attack13_",
@@ -167,8 +148,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #4 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "attack14",
@@ -176,8 +156,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #5 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Blinding Strike}}"
+      "weapon_set": 1
     },
     {
       "id": "attack16",
@@ -185,8 +164,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #6 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Empowered Attack Freeze Buildup}}"
+      "weapon_set": 1
     },
     {
       "id": "attack_speed57",
@@ -194,8 +172,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #3 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed58",
@@ -203,8 +180,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #4 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Agile Succession}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed60_",
@@ -212,64 +188,56 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #5 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Accuracy and Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "dexterity40",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #15}}\r\n<s>{- }<i>{<s>{Next node: Elemental Damage and Freeze Buildup}}\r\n\r\n<b>{<m>{Option:}}\r\n<s>{<rgb(200, 103, 110)>{Strength +5} is recommended}"
+      ]
     },
     {
       "id": "elemental27",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #16}}\r\n<s>{- }<i>{<s>{Next node: Elemental Damage and Freeze Buildup}}"
+      ]
     },
     {
       "id": "elemental26",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #17}}\r\n<s>{- }<i>{<s>{Next node: Elemental Damage and Freeze Buildup}}"
+      ]
     },
     {
       "id": "elemental16",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #18}}\r\n<s>{- }<i>{<s>{Next node: Harness the Elements}}"
+      ]
     },
     {
       "id": "elemental32",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #19}}\r\n<s>{- }<i>{<s>{Next node: Attribute (<rgb(200, 103, 110)>{Strength +5})}}"
+      ]
     },
     {
       "id": "dexterity20",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #20}}\r\n<s>{- }<i>{<s>{Next node: Attribute (<rgb(200, 103, 110)>{Strength +5})}}\r\n\r\n<b>{<m>{Option:}}\r\n<s>{<rgb(200, 103, 110)>{Strength +5} is recommended}"
+      ]
     },
     {
       "id": "attributes29",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #21}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}\r\n\r\n<b>{<m>{Option:}}\r\n<s>{<rgb(200, 103, 110)>{Strength +5} is recommended}"
+      ]
     },
     {
       "id": "accuracy37",
@@ -277,8 +245,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #6 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Accuracy and Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "accuracy38",
@@ -286,8 +253,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #7 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Accuracy and Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "accuracy39",
@@ -295,176 +261,154 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #8 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      "weapon_set": 2
     },
     {
       "id": "dexterity34",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #22}}\r\n<s>{- }<i>{<s>{Next node: [Jewel] Socket}}"
+      ]
     },
     {
       "id": "jewel_slot1960",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #23}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity12_",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #24}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity54",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #25}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      ]
     },
     {
       "id": "attack6",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #26}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage and Movement Speed}}"
+      ]
     },
     {
       "id": "attack2",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #27}}\r\n<s>{- }<i>{<s>{Next node: Maiming Strike}}"
+      ]
     },
     {
       "id": "attack5",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #28}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity55",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #29}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity82_",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #30}}\r\n<s>{- }<i>{<s>{Next node: Dance with Death}}"
+      ]
     },
     {
       "id": "passive_keystone_dance_with_death",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #31}}\r\n<s>{- }<i>{<s>{Next node: Skill Speed}}"
+      ]
     },
     {
       "id": "movement_speed5",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #32}}\r\n<s>{- }<i>{<s>{Next node: Skill Speed}}"
+      ]
     },
     {
       "id": "movement_speed4",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #33}}\r\n<s>{- }<i>{<s>{Next node: Acceleration}}"
+      ]
     },
     {
       "id": "movement_speed9",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #34}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity81",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #35}}\r\n<s>{- }<i>{<s>{Next node: Spear Damage}}"
+      ]
     },
     {
       "id": "spear3",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #36}}\r\n<s>{- }<i>{<s>{Next node: Spear Damage}}"
+      ]
     },
     {
       "id": "spear5",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #37}}\r\n<s>{- }<i>{<s>{Next node: Spear Damage}}"
+      ]
     },
     {
       "id": "spear12",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #38}}\r\n<s>{- }<i>{<s>{Next node: Focused Thrust}}"
+      ]
     },
     {
       "id": "spear9",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #39}}\r\n<s>{- }<i>{<s>{Next node: Spear Attack Speed}}"
+      ]
     },
     {
       "id": "spear11",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #40}}\r\n<s>{- }<i>{<s>{Next node: Spear Attack Speed}}"
+      ]
     },
     {
       "id": "spear6",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #41}}\r\n<s>{- }<i>{<s>{Next node: Precise Point}}"
+      ]
     },
     {
       "id": "spear13",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #42}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity42",
@@ -472,8 +416,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #9 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      "weapon_set": 2
     },
     {
       "id": "dexterity41",
@@ -481,8 +424,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #10 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      "weapon_set": 2
     },
     {
       "id": "dexterity59",
@@ -490,8 +432,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #11 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed and Dexterity}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed19",
@@ -499,8 +440,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #12 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed and Dexterity}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed21_",
@@ -508,8 +448,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #13 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed and Dexterity}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed18",
@@ -517,8 +456,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #14 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Falcon Technique}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed34",
@@ -526,8 +464,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #15 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      "weapon_set": 2
     },
     {
       "id": "dexterity58",
@@ -535,8 +472,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #16 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Melee Damage}}"
+      "weapon_set": 2
     },
     {
       "id": "melee27",
@@ -544,8 +480,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #17 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Melee Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "melee26",
@@ -553,8 +488,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #18 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Melee Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "melee16",
@@ -562,8 +496,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #19 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Rapid Strike}}"
+      "weapon_set": 2
     },
     {
       "id": "melee30_",
@@ -571,8 +504,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #20 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "cold50",
@@ -580,8 +512,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #7 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Empowered Attack Freeze Buildup}}"
+      "weapon_set": 1
     },
     {
       "id": "cold49",
@@ -589,8 +520,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #8 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Hail}}"
+      "weapon_set": 1
     },
     {
       "id": "cold51",
@@ -598,112 +528,98 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #9 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "dexterity10",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #43}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity5",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #44}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "dexterity6",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #45}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "intelligence10",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #46}}\r\n<s>{- }<i>{<s>{Next node: Skill Speed}}"
+      ]
     },
     {
       "id": "attack_speed47",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #47}}\r\n<s>{- }<i>{<s>{Next node: Flow State}}"
+      ]
     },
     {
       "id": "attack_speed37",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #48}}\r\n<s>{- }<i>{<s>{Next node: Skill Speed}}"
+      ]
     },
     {
       "id": "attack_speed46",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #49}}\r\n<s>{- }<i>{<s>{Next node: Flow Like Water}}"
+      ]
     },
     {
       "id": "shadow_monk_notable1",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #50}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "attributes28",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #51}}\r\n<s>{- }<i>{<s>{Next node: Attribute}}"
+      ]
     },
     {
       "id": "intelligence7",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #52}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      ]
     },
     {
       "id": "attack22",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #53}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      ]
     },
     {
       "id": "attack24",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #54}}\r\n<s>{- }<i>{<s>{Next node: Killer Instinct}}"
+      ]
     },
     {
       "id": "attack27",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #55}}\r\n<s>{- }<i>{<s>{Next node: Evasion}}"
+      ]
     },
     {
       "id": "attack41__",
@@ -711,8 +627,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #10 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "attack42",
@@ -720,8 +635,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #11 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "attack43",
@@ -729,8 +643,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #12 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Concussive Attack}}"
+      "weapon_set": 1
     },
     {
       "id": "attack45",
@@ -738,8 +651,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #13 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Area Damage and Area}}"
+      "weapon_set": 1
     },
     {
       "id": "attack_speed5",
@@ -747,8 +659,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #21 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Tenfold Attacks}}"
+      "weapon_set": 2
     },
     {
       "id": "attack_speed30",
@@ -756,8 +667,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #22 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Attack Speed}}"
+      "weapon_set": 2
     },
     {
       "id": "attack25",
@@ -765,8 +675,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #23 (Weapon Set 2)}}\r\n<s>{- }<i>{<s>{Next node: Precision Salvo}}"
+      "weapon_set": 2
     },
     {
       "id": "area_attacks44",
@@ -774,8 +683,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #14 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Area Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "area_attacks47",
@@ -783,8 +691,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #15 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Area Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "area_attacks48",
@@ -792,8 +699,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #16 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Dizzying Sweep}}"
+      "weapon_set": 1
     },
     {
       "id": "area_attacks58",
@@ -801,40 +707,35 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #17 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Elemental Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "evasion17_",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #56}}\r\n<s>{- }<i>{<s>{Next node: Escape Velocity}}"
+      ]
     },
     {
       "id": "evasion31",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #57}}\r\n<s>{- }<i>{<s>{Next node: Spear Attack Speed}}"
+      ]
     },
     {
       "id": "spear7",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #58}}\r\n<s>{- }<i>{<s>{Next node: Roll and Strike}}"
+      ]
     },
     {
       "id": "spear18",
       "level_interval": [
         0,
         100
-      ],
-      "additional_text": "<b>{<m>{Allocation Step #59}}"
+      ]
     },
     {
       "id": "elemental_attacks6",
@@ -842,8 +743,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #18 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Catalysis}}"
+      "weapon_set": 1
     },
     {
       "id": "elemental_attacks8",
@@ -851,8 +751,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #19 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "attack35",
@@ -860,8 +759,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #20 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "attack36",
@@ -869,8 +767,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #21 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Elemental Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "elemental54",
@@ -878,8 +775,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #22 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Elemental Attack Damage}}"
+      "weapon_set": 1
     },
     {
       "id": "elemental55",
@@ -887,8 +783,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #23 (Weapon Set 1)}}\r\n<s>{- }<i>{<s>{Next node: Primal Sundering}}"
+      "weapon_set": 1
     },
     {
       "id": "elemental56",
@@ -896,8 +791,7 @@
         0,
         100
       ],
-      "weapon_set": 1,
-      "additional_text": "<b>{<m>{Allocation Step #24 (Weapon Set 1)}}"
+      "weapon_set": 1
     },
     {
       "id": "accuracy40",
@@ -905,8 +799,7 @@
         0,
         100
       ],
-      "weapon_set": 2,
-      "additional_text": "<b>{<m>{Allocation Step #24 (Weapon Set 2)}}"
+      "weapon_set": 2
     }
   ],
   "skills": [
@@ -958,6 +851,20 @@
             0,
             100
           ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlazingCritical",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            0,
+            100
+          ]
         }
       ]
     },
@@ -997,7 +904,28 @@
           ]
         },
         {
+          "id": "Metadata/Items/Gem/SupportGemRetreatThree",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
           "id": "Metadata/Items/Gems/SupportGemAccelerationThree",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemAcceleration",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
           "level_interval": [
             0,
             100
@@ -1010,6 +938,29 @@
       "level_interval": [
         0,
         100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemStripAway",
+          "level_interval": [
+            0,
+            100
+          ]
+        }
       ]
     },
     {
@@ -1035,6 +986,20 @@
         },
         {
           "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
           "level_interval": [
             0,
             100
@@ -1069,6 +1034,27 @@
             0,
             100
           ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "level_interval": [
+            0,
+            100
+          ]
         }
       ]
     },
@@ -1081,6 +1067,20 @@
       "support_skills": [
         {
           "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemExpedite",
           "level_interval": [
             0,
             100
@@ -1102,6 +1102,34 @@
         },
         {
           "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemRetreatTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemRetreat",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
           "level_interval": [
             0,
             100
@@ -1131,6 +1159,20 @@
           ]
         },
         {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
           "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
           "level_interval": [
             0,
@@ -1148,6 +1190,27 @@
       "support_skills": [
         {
           "id": "Metadata/Items/Gems/SupportGemMartialTempoThree",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemShockingLeap",
           "level_interval": [
             0,
             100
@@ -1177,7 +1240,14 @@
           ]
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "id": "Metadata/Items/Gems/SupportGemLongshot",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
           "level_interval": [
             0,
             100
@@ -1197,6 +1267,38 @@
       "level_interval": [
         0,
         100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion",
+          "level_interval": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+          "level_interval": [
+            0,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemWolfPounce",
+      "level_interval": [
+        0,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "level_interval": [
+            0,
+            100
+          ]
+        }
       ]
     }
   ]
